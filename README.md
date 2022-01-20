@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## About this project
+
+- With every refresh new data will be fetched from NASA's API
+- Liked data is saved on `localStorage` so if you refresh the page or leave the page even though new data is fetched from API, the liked data will load from last session
+- Added a loading state while NASA’s API data is loading
